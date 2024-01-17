@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>weather</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container pb-3 ">
+          <a class="navbar-brand fw-semibold text-white" href="#">Weather
+            <i class="fa-solid fa-cloud"></i>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item ">
+                <a class="nav-link active text-white fw-semibold " aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-white fw-semibold" aria-current="page" href="#">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-white fw-semibold" aria-current="page" href="#">Live Cameras</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-white fw-semibold" aria-current="page" href="#">Photos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-white fw-semibold" aria-current="page" href="contact.html">Contact</a>
+              </li>
+             
+              
+              
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+      <input type="text" placeholder="search.. " class=" m-auto w-75 form-control mt-2 mt-5" id="search" >
+      <div class="container">
+        <div class="row mt-5 " id="demo">
+          <div class="col-4 ">
+            <div class="card  mb-3 transparent-bg" style="max-width: 100rem;" id="cardone">
+              <div class="card-header fw-medium">  <span id="day-date-1"> </span> </div>
+              <div class="card-body">
+                <p class="card-title pb-3 fw-bold" id="counttry">Cairo</p>
+                <h1 class="card-title" id="degree">21C&deg;</h1>
+                <div id="weather"></div>
+                <p class="status fw-bold"  id="stat">Sunny</p>
+                <div class="d-flex">
+                  <div>
+                    <p><i class="fa-solid fa-umbrella"></i> <span class="pe-2"> Forest</span></p>
+  
+                  </div>
+                  <div>
+                    <p><i class="fa-solid fa-poo-storm ps-2"></i> <span class=""> 18 km/h</span></p>
+
+                  </div>
+                  <div>
+                    <p><i class="fa-solid fa-location-crosshairs ps-2"></i><span class=""> East</span></p>
+
+                  </div>
+                </div>
+                
+                
+              </div>
+          </div>
+          
+        </div>
+        <div class="col-4">
+          <div class="card transparent-bg mb-3" style="max-width: 100rem;"  id="cardtwo">
+            <div class="card-header fw-medium"> <span id="day-date-2"></span></div>
+            <div class="card-body">
+              <p class="card-title pb-3 fw-bold" id="counttry-two">Cairo</p>
+
+              <h1 class="card-title" id="degree-two">21C&deg;</h1>
+                <div id="weatherTwo"></div>
+                <p class="status fw-bold"  id="stat-two">Sunny</p>
+                <div class="d-flex">
+                  <div>
+                    <p><i class="fa-solid fa-umbrella"></i> <span class="pe-2"> Forest</span></p>
+  
+                  </div>
+                  <div>
+                    <p><i class="fa-solid fa-poo-storm ps-2"></i> <span class=""> 18 km/h</span></p>
+
+                  </div>
+                  <div>
+                    <p><i class="fa-solid fa-location-crosshairs ps-2"></i><span class=""> East</span></p>
+
+                  </div>
+         
+            </div>
+        </div>
+         
+      </div>
+      </div>
+      <div class="col-4">
+        <div class="card transparent-bg mb-3 " style="max-width: 100rem;" id="cardthree">
+          <div class="card-header fw-medium"> <span id="day-date-3"></span></div>
+          <div class="card-body">
+            <p class="card-title pb-3 fw-bold" id="counttry-three">Cairo</p>
+            <h1 class="card-title" id="degree-three">21C&deg;</h1>
+                <div id="weatherThree"></div>
+                <p class="status fw-bold"  id="stat-three">Sunny</p>
+                <div class="d-flex">
+                  <div>
+                    <p><i class="fa-solid fa-umbrella"></i> <span class="pe-2"> Forest</span></p>
+  
+                  </div>
+                  <div>
+                    <p><i class="fa-solid fa-poo-storm ps-2"></i> <span class=""> 18 km/h</span></p>
+
+                  </div>
+                  <div>
+                    <p><i class="fa-solid fa-location-crosshairs ps-2"></i><span class=""> East</span></p>
+
+                  </div>
+          </div>
+      </div>
+       
+    </div>
+        
+     
+        
+      </div>
+      <div class=" search-container  m-auto w-75 " >
+        <input type="text" placeholder="Enter Your Subscriber HERE ... ^_^   "  class=" m-auto w-75 form-control mt-2 mt-5 " id="search" >
+
+        <div class="div d-flex justify-content-center align-items-center mb-3 pt-3" >
+          <i class="fa-brands fa-facebook-f p-3 social-icons"></i>
+          <i class="fa-brands fa-linkedin-in p-3 social-icons"></i>
+        <i class="fa-brands fa-instagram p-3 social-icons"></i>
+        <i class="fa-brands fa-twitter p-3 social-icons"></i>
+        </div>
+      </div>
+      
+      </div>
+      
+      
+   <script src="JS/bootstrap.bundle.js"></script>
+   <script src="JS/main.js"></script>
+</body>
+</html>
